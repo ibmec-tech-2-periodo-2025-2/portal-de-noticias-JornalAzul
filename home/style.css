@@ -64,70 +64,22 @@ input:focus { outline: none; }
 /* main */
 
 main {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
     height: 80vh;
-    width: 100vw;
+    width: 100%;
 }
 
-.divview1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 15px;
-    left: 15%;
-    width: 69%;
-    height: 35%;
-    border: 2px black solid;
-}
 
-.divn1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px black solid;
-    position: relative;
-    width: 360px;
-    height: 160px;
-    left: 15%;
-    top: 50px;
+.noticia-principal{
+    width: 90%;
+    height: 70vh;
+    background-image: url("/home/img/carrossel-cruzeiro-x-atletico-mg-no-independencia\ \(1\).webp");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
 }
-
-.divn2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px black solid;
-    position: relative;
-    width: 677px;
-    height: 160px;
-    left: 40%;
-    top: -110px;
-}
-
-.divn3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px black solid;
-    position: relative;
-    width: 360px;
-    height: 160px;
-    left: 15%;
-    top: -80px;
-}
-
-.divn4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px black solid;
-    position: relative;
-    width: 677px;
-    height: 160px;
-    left: 40%;
-    top: -240px;
-}
-
 
 
 
