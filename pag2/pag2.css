@@ -63,6 +63,12 @@ input:focus { outline: none; }
 
 /* main */
 
+main {
+    display: flex;
+    height: 70vh;
+    width: 100vw;
+}
+
 /* footer */
 
 .footer {
