@@ -1,11 +1,13 @@
-body {
-    font-family: Arial, sans-serif;
+* {
+    box-sizing: border-box;
+    padding: 0;
     margin: 0;
-    background: #f8f9fa;
-    color: #333;
-  }
-  
-  header {
+    font-family: "Montserrat";
+}
+
+/* header */
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,56 +62,79 @@ input:focus {
 .socio a:hover {
     text-decoration: underline;
 }
-  
-  nav {
-    margin-top: 10px;
-  }
-  
-  nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    font-weight: bold;
-  }
-  
-  nav a:hover, nav a.ativo {
-    text-decoration: underline;
-  }
-  
-  main {
-    max-width: 900px;
-    margin: 40px auto;
+
+/* main */
+
+main {
+    width: 100%;
     padding: 20px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  }
-  
-  h2 {
+    background-color: #f2f2f2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sobre{
+    background-color: #f2f2f2;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 90%;
+}
+
+.missao{
+    background-color: #f2f2f2;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 90%;
+}
+
+.equipe{
+    background-color: #f2f2f2;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 90%;
+}
+
+
+h2 {
     color: #003366;
-  }
-  
-  .sobre, .missao, .equipe {
-    margin-bottom: 30px;
-  }
-  
-  .equipe ul {
+}
+
+.sobre,
+.missao,
+.equipe {
+    margin-bottom: 40px;
+}
+
+.equipe ul {
     list-style: none;
     padding: 0;
-  }
-  
-  .equipe li {
+}
+
+.equipe li {
     background: #e6f0ff;
     margin: 8px 0;
     padding: 10px;
     border-radius: 6px;
-  }
-  
-  .footer {
-    background-color: #003a69;
-    color: #f2f2f2;
+}
+
+.equipe li:hover{
+    transition: 0.5s;
+    background-color: #003366;
+    color:#f2f2f2;
+}
+
+/* footer */
+
+.footer {
+    background-color: #003a69; 
+    color: #fff;
     padding: 40px 20px 10px;
-    margin-top: 40px;
 }
 
 .footer-container {
@@ -125,7 +150,7 @@ input:focus {
 .footer-logo h2 {
     font-size: 22px;
     margin-bottom: 5px;
-    color: #f2f2f2;
+    color: #fff;
 }
 
 .footer-logo p {
@@ -184,7 +209,7 @@ input:focus {
     margin-top: 25px;
     font-size: 13px;
     color: #ccc;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 1px solid rgba(255,255,255,0.2);
     padding-top: 10px;
 }
 
@@ -195,15 +220,12 @@ input:focus {
         align-items: center;
         text-align: center;
     }
-
     .footer-links {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
     }
-
     .footer-socials {
         flex-direction: row;
     }
 }
-  
