@@ -4,6 +4,12 @@
     margin: 0;
     font-family: "Montserrat";
 }
+body{
+    max-width: 100%;
+}
+
+
+    
 
 /* header */
 
@@ -64,70 +70,58 @@ input:focus { outline: none; }
 /* main */
 
 main {
-    height: 80vh;
-    width: 100vw;
+    height: 150vh;
+    width: 100%;
 }
 
-.divview1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 15px;
-    left: 15%;
-    width: 69%;
-    height: 35%;
-    border: 2px black solid;
-}
 
-.divn1{
+
+#divpai{
     display: flex;
     justify-content: center;
-    align-items: center;
-    border: 2px black solid;
-    position: relative;
-    width: 360px;
-    height: 160px;
-    left: 15%;
-    top: 50px;
+    
+}
+#sinis{
+    background-image: url("img/sinisterra.jpg");
+    height: 70vh;
+    width: 45vw;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 50px;
+    box-shadow: 10px 10px 20px #003a69;;
+
+   
+    
+
 }
 
-.divn2{
+.titulo{
+    height: 65vh;
+    width: 45vw;
+    margin-top: 50px;
+ font-size: 25px;
+ background-position: center;
+}
+#sub{
+    font-size: 20px;
+    
+}
+#noticia{
+    width: 100%;
+    height: 75vh;
     display: flex;
+  
     justify-content: center;
     align-items: center;
-    border: 2px black solid;
-    position: relative;
-    width: 677px;
-    height: 160px;
-    left: 40%;
-    top: -110px;
-}
+    flex-direction: column;
 
-.divn3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px black solid;
-    position: relative;
-    width: 360px;
-    height: 160px;
-    left: 15%;
-    top: -80px;
 }
-
-.divn4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px black solid;
-    position: relative;
-    width: 677px;
-    height: 160px;
-    left: 40%;
-    top: -240px;
+#noticia p{
+    
+    width: 75%;
+    
 }
-
 
 
 
@@ -136,8 +130,8 @@ main {
 .footer {
     background-color: #003a69; 
     color: #fff;
-    padding: 40px 20px 10px;
-    margin-top: 40px;
+    padding: 40px 20px 20px;
+    
 }
 
 .footer-container {
