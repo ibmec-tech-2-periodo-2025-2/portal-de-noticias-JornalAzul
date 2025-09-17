@@ -64,71 +64,49 @@ input:focus { outline: none; }
 /* main */
 
 main {
-    height: 80vh;
-    width: 100vw;
-}
-
-.divview1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 15px;
-    left: 15%;
-    width: 69%;
-    height: 35%;
-    border: 2px black solid;
-}
-
-.divn1{
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px black solid;
-    position: relative;
-    width: 360px;
-    height: 160px;
-    left: 15%;
-    top: 50px;
+    flex-direction: column;
 }
 
-.divn2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px black solid;
-    position: relative;
-    width: 677px;
-    height: 160px;
-    left: 40%;
-    top: -110px;
+.kaio {
+
+    background-image: url("/pag3/img/Kaiojorge.avif");
+    height: 100vh;
+    width: 70vw;
+    border-radius: 10px;
 }
 
-.divn3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px black solid;
-    position: relative;
-    width: 360px;
-    height: 160px;
-    left: 15%;
-    top: -80px;
+.titulo {
+
+    padding: 50px 200px;
+
 }
 
-.divn4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px black solid;
-    position: relative;
-    width: 677px;
-    height: 160px;
-    left: 40%;
-    top: -240px;
+p {
+
+    padding: 30px 200px;
+    font-size: large;
+    
 }
 
+.kaio2 {
 
+    background-image: url("/pag3/img/kaiojorge2.avif");
+    height: 100vh;
+    width: 70vw;
+    border-radius: 10px;
+    margin: 30px;
+
+}
+
+ul {
+    padding: 10px 220px;
+    font-size: large;
+}
 
 
 /* footer */
